@@ -5,84 +5,133 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Comics — Evan & Hannah Europe 2011</title>
   <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .comics-page { max-width: 1000px; margin: 4rem auto; padding: 0 2rem; }
+    .comics-page h2 { font-family: 'Playfair Display', serif; font-weight: 400; font-size: 1.5rem; margin: 3rem 0 1.5rem; border-top: 1px solid var(--border); padding-top: 1.5rem; }
+    .comics-page h2:first-of-type { border-top: none; margin-top: 0; }
+    .comic-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1rem; }
+    .comic-grid img { max-width: 100%; display: block; background: #fff; border: 1px solid var(--border); padding: 0.5rem; cursor: pointer; }
+    .comic-grid img:hover { opacity: 0.88; }
+    .section-label { font-family: 'DM Sans', sans-serif; font-size: 0.75rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--rust); margin-bottom: 0.25rem; }
+  </style>
 </head>
 <body>
 
 <nav>
   <a class="nav-brand" href="../index.html">Evan &amp; Hannah · Europe 2011</a>
   <ul>
-    <li><a href="../index.html#posts">Posts</a></li>
-    <li><a href="../index.html#comics">Comics</a></li>
-    <li><a href="../index.html#photos">Photos</a></li>
+    <li><a href="../index.html">Posts</a></li>
+    <li><a href="../photos/index.html">Photos</a></li>
   </ul>
 </nav>
 
-<header class="hero" style="padding:4rem 2rem 3rem;">
+<header class="hero" style="padding: 4rem 2rem 3rem;">
   <p class="hero-eyebrow">Illustrated by Hannah</p>
-  <h1>The Comics</h1>
-  <p>Three illustrated series from the summer — Manchego, Rome, and The Umbrella.</p>
+  <h1>Comics</h1>
 </header>
 
-<main style="max-width:1100px;margin:4rem auto;padding:0 2rem;">
+<div class="comics-page">
 
-  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:3rem;margin-bottom:5rem;">
-    <div>
-      <p class="section-label">Series 1</p>
-      <h2 style="font-family:'Playfair Display',serif;font-size:1.6rem;font-weight:400;margin-bottom:0.5rem;"><a href="manchego.html" style="color:inherit;text-decoration:none;">The Manchego Series</a></h2>
-      <p style="color:var(--muted);font-size:0.9rem;">A Spanish cheese navigates Europe. 11 installments.</p>
-      <a href="manchego.html" style="display:inline-block;margin-top:1rem;font-family:'DM Sans',sans-serif;font-size:0.8rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--rust);text-decoration:none;">Read series →</a>
-    </div>
-    <div>
-      <p class="section-label">Series 2</p>
-      <h2 style="font-family:'Playfair Display',serif;font-size:1.6rem;font-weight:400;margin-bottom:0.5rem;"><a href="rome.html" style="color:inherit;text-decoration:none;">Dispatches from Rome</a></h2>
-      <p style="color:var(--muted);font-size:0.9rem;">Eight illustrated reports from the Eternal City.</p>
-      <a href="rome.html" style="display:inline-block;margin-top:1rem;font-family:'DM Sans',sans-serif;font-size:0.8rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--rust);text-decoration:none;">Read series →</a>
-    </div>
-    <div>
-      <p class="section-label">Series 3</p>
-      <h2 style="font-family:'Playfair Display',serif;font-size:1.6rem;font-weight:400;margin-bottom:0.5rem;"><a href="umbrella.html" style="color:inherit;text-decoration:none;">The Umbrella</a></h2>
-      <p style="color:var(--muted);font-size:0.9rem;">Adventures in European weather. One umbrella, many adventures.</p>
-      <a href="umbrella.html" style="display:inline-block;margin-top:1rem;font-family:'DM Sans',sans-serif;font-size:0.8rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--rust);text-decoration:none;">Read series →</a>
-    </div>
+  <p class="section-label">Series</p>
+  <h2>Manchego Cheese Index</h2>
+  <p style="color:var(--muted);font-size:0.95rem;margin-bottom:1.5rem;">See the full post: <a href="../posts/manchego.html" style="color:var(--rust);">The Manchego Cheese Index →</a></p>
+  <div class="comic-grid">
+    <img src="../images/cartoons/Manchego.png" alt="Manchego 1" onclick="openLightbox(this.src)">
+    <img src="../images/cartoons/Manchego 2.png" alt="Manchego 2" onclick="openLightbox(this.src)">
+    <img src="../images/cartoons/Manchego 3.png" alt="Manchego 3" onclick="openLightbox(this.src)">
+    <img src="../images/cartoons/Manchego 4.png" alt="Manchego 4" onclick="openLightbox(this.src)">
+    <img src="../images/cartoons/Manchego 5.png" alt="Manchego 5" onclick="openLightbox(this.src)">
+    <img src="../images/cartoons/Manchego 6.png" alt="Manchego 6" onclick="openLightbox(this.src)">
+    <img src="../images/cartoons/Manchego 6.5.png" alt="Manchego 6.5" onclick="openLightbox(this.src)">
+    <img src="../images/cartoons/Manchego 7.png" alt="Manchego 7" onclick="openLightbox(this.src)">
+    <img src="../images/cartoons/Manchego 8.png" alt="Manchego 8" onclick="openLightbox(this.src)">
+    <img src="../images/cartoons/Manchego 9.png" alt="Manchego 9" onclick="openLightbox(this.src)">
+    <img src="../images/cartoons/Manchego 10.png" alt="Manchego 10" onclick="openLightbox(this.src)">
   </div>
 
-  <p class="section-label">All comics</p>
-  <h2 style="font-family:'Playfair Display',serif;font-size:1.8rem;font-weight:400;margin-bottom:2rem;">General Illustrations</h2>
-
-  <div class="comics-grid">
-    <div class="comic-card"><img src="../images/cartoons/H1.png" alt="H1"><p class="comic-title">H.1</p></div>
-    <div class="comic-card"><img src="../images/cartoons/H2.png" alt="H2"><p class="comic-title">H.2</p></div>
-    <div class="comic-card"><img src="../images/cartoons/H3.png" alt="H3"><p class="comic-title">H.3</p></div>
-    <div class="comic-card"><img src="../images/cartoons/H4.png" alt="H4"><p class="comic-title">H.4</p></div>
-    <div class="comic-card"><img src="../images/cartoons/H5.png" alt="H5"><p class="comic-title">H.5</p></div>
-    <div class="comic-card"><img src="../images/cartoons/H6.png" alt="H6"><p class="comic-title">H.6</p></div>
-    <div class="comic-card"><img src="../images/cartoons/H6.2.png" alt="H6.2"><p class="comic-title">H.6.2</p></div>
-    <div class="comic-card"><img src="../images/cartoons/H6.3.png" alt="H6.3"><p class="comic-title">H.6.3</p></div>
-    <div class="comic-card"><img src="../images/cartoons/H6.10.png" alt="H6.10"><p class="comic-title">H.6.10</p></div>
-    <div class="comic-card"><img src="../images/cartoons/H7.png" alt="H7"><p class="comic-title">H.7</p></div>
-    <div class="comic-card"><img src="../images/cartoons/H8.png" alt="H8"><p class="comic-title">H.8</p></div>
-    <div class="comic-card"><img src="../images/cartoons/H9.png" alt="H9"><p class="comic-title">H.9</p></div>
-    <div class="comic-card"><img src="../images/cartoons/H9.2.png" alt="H9.2"><p class="comic-title">H.9.2</p></div>
-    <div class="comic-card"><img src="../images/cartoons/H10.png" alt="H10"><p class="comic-title">H.10</p></div>
-    <div class="comic-card"><img src="../images/cartoons/H11.png" alt="H11"><p class="comic-title">H.11</p></div>
-    <div class="comic-card"><img src="../images/cartoons/H13.png" alt="H13"><p class="comic-title">H.13</p></div>
-    <div class="comic-card"><img src="../images/cartoons/H14.png" alt="H14"><p class="comic-title">H.14</p></div>
-    <div class="comic-card"><img src="../images/cartoons/H15.png" alt="H15"><p class="comic-title">H.15</p></div>
-    <div class="comic-card"><img src="../images/cartoons/H16.png" alt="H16"><p class="comic-title">H.16</p></div>
-    <div class="comic-card"><img src="../images/cartoons/H17.png" alt="H17"><p class="comic-title">H.17</p></div>
-    <div class="comic-card"><img src="../images/cartoons/H18.png" alt="H18"><p class="comic-title">H.18</p></div>
-    <div class="comic-card"><img src="../images/cartoons/H19.png" alt="H19"><p class="comic-title">H.19</p></div>
-    <div class="comic-card"><img src="../images/cartoons/H20.png" alt="H20"><p class="comic-title">H.20</p></div>
-    <div class="comic-card"><img src="../images/cartoons/H21.png" alt="H21"><p class="comic-title">H.21</p></div>
-    <div class="comic-card"><img src="../images/cartoons/H22.png" alt="H22"><p class="comic-title">H.22</p></div>
-    <div class="comic-card"><img src="../images/cartoons/H23.png" alt="H23"><p class="comic-title">H.23</p></div>
+  <p class="section-label" style="margin-top:3rem;">Series</p>
+  <h2>Appreciating Art</h2>
+  <p style="color:var(--muted);font-size:0.95rem;margin-bottom:1.5rem;">See the full post: <a href="../posts/art.html" style="color:var(--rust);">Appreciating Art →</a></p>
+  <div class="comic-grid">
+    <img src="../images/photos/Art-1.png" alt="Art 1" onclick="openLightbox(this.src)">
+    <img src="../images/photos/Art-2.png" alt="Art 2" onclick="openLightbox(this.src)">
+    <img src="../images/photos/Art-3.png" alt="Art 3" onclick="openLightbox(this.src)">
+    <img src="../images/photos/Art-4.png" alt="Art 4" onclick="openLightbox(this.src)">
+    <img src="../images/photos/Art-6.png" alt="Art 6" onclick="openLightbox(this.src)">
+    <img src="../images/photos/Art-7.png" alt="Art 7" onclick="openLightbox(this.src)">
+    <img src="../images/photos/Art-8.png" alt="Art 8" onclick="openLightbox(this.src)">
   </div>
 
-</main>
+  <p class="section-label" style="margin-top:3rem;">Series</p>
+  <h2>Heavy Souvenirs</h2>
+  <p style="color:var(--muted);font-size:0.95rem;margin-bottom:1.5rem;">See the full post: <a href="../posts/souvenirs.html" style="color:var(--rust);">Heavy Souvenirs →</a></p>
+  <div class="comic-grid">
+    <img src="../images/photos/Bulky-1.png" alt="Bulky 1" onclick="openLightbox(this.src)">
+    <img src="../images/photos/Bulky-2.png" alt="Bulky 2" onclick="openLightbox(this.src)">
+    <img src="../images/photos/Bulky-3.png" alt="Bulky 3" onclick="openLightbox(this.src)">
+    <img src="../images/photos/Bulky-4.png" alt="Bulky 4" onclick="openLightbox(this.src)">
+    <img src="../images/photos/Bulky-5.png" alt="Bulky 5" onclick="openLightbox(this.src)">
+    <img src="../images/photos/Bulky-6.png" alt="Bulky 6" onclick="openLightbox(this.src)">
+  </div>
+
+  <p class="section-label" style="margin-top:3rem;">All illustrations</p>
+  <h2>H Series</h2>
+  <div class="comic-grid">
+    <img src="../images/cartoons/H1.png" alt="H1" onclick="openLightbox(this.src)">
+    <img src="../images/cartoons/H2.png" alt="H2" onclick="openLightbox(this.src)">
+    <img src="../images/cartoons/H3.png" alt="H3" onclick="openLightbox(this.src)">
+    <img src="../images/cartoons/H4.png" alt="H4" onclick="openLightbox(this.src)">
+    <img src="../images/cartoons/H5.png" alt="H5" onclick="openLightbox(this.src)">
+    <img src="../images/cartoons/H6.png" alt="H6" onclick="openLightbox(this.src)">
+    <img src="../images/cartoons/H6.2.png" alt="H6.2" onclick="openLightbox(this.src)">
+    <img src="../images/cartoons/H6.3.png" alt="H6.3" onclick="openLightbox(this.src)">
+    <img src="../images/cartoons/H6.10.png" alt="H6.10" onclick="openLightbox(this.src)">
+    <img src="../images/cartoons/H7.png" alt="H7" onclick="openLightbox(this.src)">
+    <img src="../images/cartoons/H8.png" alt="H8" onclick="openLightbox(this.src)">
+    <img src="../images/cartoons/H9.png" alt="H9" onclick="openLightbox(this.src)">
+    <img src="../images/cartoons/H9.2.png" alt="H9.2" onclick="openLightbox(this.src)">
+    <img src="../images/cartoons/H10.png" alt="H10" onclick="openLightbox(this.src)">
+    <img src="../images/cartoons/H11.png" alt="H11" onclick="openLightbox(this.src)">
+    <img src="../images/cartoons/H13.png" alt="H13" onclick="openLightbox(this.src)">
+    <img src="../images/cartoons/H14.png" alt="H14" onclick="openLightbox(this.src)">
+    <img src="../images/cartoons/H15.png" alt="H15" onclick="openLightbox(this.src)">
+    <img src="../images/cartoons/H16.png" alt="H16" onclick="openLightbox(this.src)">
+    <img src="../images/cartoons/H17.png" alt="H17" onclick="openLightbox(this.src)">
+    <img src="../images/cartoons/H18.png" alt="H18" onclick="openLightbox(this.src)">
+    <img src="../images/cartoons/H19.png" alt="H19" onclick="openLightbox(this.src)">
+    <img src="../images/cartoons/H20.png" alt="H20" onclick="openLightbox(this.src)">
+    <img src="../images/cartoons/H21.png" alt="H21" onclick="openLightbox(this.src)">
+    <img src="../images/cartoons/H22.png" alt="H22" onclick="openLightbox(this.src)">
+    <img src="../images/cartoons/H23.png" alt="H23" onclick="openLightbox(this.src)">
+  </div>
+
+  <p class="section-label" style="margin-top:3rem;">All illustrations</p>
+  <h2>The Umbrella</h2>
+  <div class="comic-grid">
+    <img src="../images/cartoons/Umbrella.png" alt="Umbrella" onclick="openLightbox(this.src)">
+  </div>
+
+</div>
+
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+  <button class="lightbox-close" onclick="closeLightbox()">✕</button>
+  <img id="lightbox-img" src="" alt="">
+</div>
 
 <footer>
   <p><strong>Evan &amp; Hannah's Europe Blog</strong> · Summer 2011</p>
 </footer>
+
+<script>
+function openLightbox(src) {
+  document.getElementById('lightbox-img').src = src;
+  document.getElementById('lightbox').classList.add('active');
+}
+function closeLightbox() {
+  document.getElementById('lightbox').classList.remove('active');
+}
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
+</script>
 
 </body>
 </html>
