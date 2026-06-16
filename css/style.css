@@ -228,7 +228,38 @@ nav ul a:hover { opacity: 1; }
   object-fit: contain;
 }
 
-/* ── Song/lyric block ── */
+/* ── WordPress-style inline images & captions (from archive) ── */
+.post-content img.post-img {
+  max-width: 100%;
+  height: auto !important;
+  display: block;
+  margin: 1.5rem auto;
+  background: #fff;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.post-content img.post-img:hover { opacity: 0.9; }
+
+.post-content .wp-caption {
+  max-width: 100% !important;
+  width: auto !important;
+  margin: 1.75rem auto;
+}
+
+.post-content .wp-caption img.post-img { margin-bottom: 0.4rem; }
+
+.post-content .wp-caption-text,
+.post-content p.wp-caption-text {
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--muted);
+  text-align: center;
+  margin: 0 0 0.5rem;
+  line-height: 1.5;
+}
+
+/* Song/lyric block */
 .post-content .lyrics {
   font-family: 'Source Serif 4', Georgia, serif;
   font-style: italic;
